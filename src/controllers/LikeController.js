@@ -8,4 +8,4 @@ module.exports = {
         req.io.emit('like', tweet);
         return res.json(tweet);
     }
-}
+};
