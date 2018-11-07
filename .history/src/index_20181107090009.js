@@ -19,6 +19,6 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(require('./routes'));
 
-server.listen(3000, () => {
+app.listen(3000, () => {
     console.log("Serve started on port 3000");
 });
